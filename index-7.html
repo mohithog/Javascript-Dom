@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #center{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        #downloadCapsule{
+            width: 300px;
+            height: 10px;
+            background-color: #dadada;
+            border-radius: 100px;
+        }
+
+        #progress{
+            transition: all cubic-beizer(0.19 , 1, 0.22 , 1) .2s;
+            width: 0%;
+            height: 100%;
+            border-radius: 100px;
+            background-color: red;
+        }
+        h3{
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="center">
+        <h3>Download Completed</h3>
+        <div id="downloadCapsule">
+            <div id="progress"></div>
+        </div>
+    </div>
+    <script src="dom-7.js"></script>
+</body>
+</html>

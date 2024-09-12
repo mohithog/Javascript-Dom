@@ -9,10 +9,6 @@ Questions:
 
 5. Build a countdown timer that starts when a button is clicked  and updates the display in real-time.
 
-6. 
 
-7.
-
-8.
 
 9. Build a character counter for a text area or input field , which updates in real-time user types and enforces a character limit .
